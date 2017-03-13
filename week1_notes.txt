@@ -1,0 +1,23 @@
+Installation Guide
+
+1. Install Pycharm (IDE)
+	- Two versions:
+		- Free: Community version
+		- Licenced: Professional version (sign up jetbrains account using JCU email address)
+
+2. Install python
+	- Windows : version 3.4.4
+	- Mac: Install brew
+	       Install python 3
+
+3. Install Git
+
+4. Sign up a github account
+	**** Using your jcu email address **********
+
+5. Install kivy (Later)
+
+
+https://github.com/CP1404/Starter/wiki/Software-Setup
+
+https://github.com/yokyen/2017_rose
