@@ -40,6 +40,39 @@ def maths_operation(x, y):
     print("modulo -> ", x % y)
     print("power -> ", x ** y)
 
+def augmented_operator(x):
+    x += 1 # x = x + 1
+    print(x)
+    x -= 2
+    print(x)
+    x *= 3
+    print(x)
+    x /= 2
+    print(x)
+
+# precedence
+"""
+1. () # x = 1 + 3 + 6 * 9 + (8 +10)
+2. **
+3. +x, -x
+4. *, /, %, //
+5. +, -
+6. Comparison ( >, <, >=, <=, ==..)
+7. not x
+8. and
+9. or
+"""
+
 #greeting() # function calling
 #data_types()
-maths_operation(3, 2)
+#maths_operation(3, 2)
+augmented_operator(6)
+
+x = 5
+
+if x < 10:
+    print("It is small")
+elif x < 20:
+    print("It is okay")
+else:
+    print("It's big")
